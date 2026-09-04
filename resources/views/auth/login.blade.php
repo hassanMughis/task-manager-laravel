@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="card" style="max-width:420px; margin:0 auto;">
-    <h1>Log in</h1>
+    <h1>Sign up</h1>
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
@@ -18,7 +18,7 @@
             <input type="checkbox" name="remember" style="width:auto; display:inline-block;"> Remember me
         </label>
 
-        <button type="submit">Log in</button>
+        <button type="submit">Sign up</button>
     </form>
     <p style="margin-top:1rem;">Don't have an account? <a href="{{ route('register') }}">Register</a></p>
 </div>
