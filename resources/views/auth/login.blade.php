@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="card" style="max-width:420px; margin:0 auto;">
-    <h1>Sign up</h1>
+    <h1></h1>
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
